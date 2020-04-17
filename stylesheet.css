@@ -1,0 +1,129 @@
+header{
+  height:210px;
+  width:1000px
+}
+.header {
+  height: 200px;
+  width:1000px;
+  background-color: orange;
+  border-radius: 100px;
+  box-shadow: 20px 20px;
+}
+
+.header h1{
+  text-align: center;
+  padding-top: 50px;
+  font-size: 100px;
+  padding-bottom:0px;
+}
+
+.header p{
+
+}
+
+main{
+  height:4200px;
+  width:1000px;
+}
+
+.about h1{
+  text-align: center;
+  font-size:35
+  border:solid 2px black;
+}
+
+
+
+.about{
+  height: 420px;
+  width:1000px;
+  background-color: orange;
+  border-radius: 100px;
+  box-shadow: 20px 20px;
+  margin-top: 20px;
+
+
+}
+
+.about p{
+  font-size: 33px;
+  text-align: center;
+  padding:30px;
+}
+
+
+.music{
+  height: 310px;
+  width:1000px;
+  background-color: orange;
+  border-radius: 100px;
+  box-shadow: 20px 20px;
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+.music li{
+  font-size: 30px;
+}
+
+.qua{
+  height: 180px;
+  width:1000px;
+}
+
+.quabox{
+  height: 150px;
+  width:1000px;
+  background-color: orange;
+  border-radius: 100px;
+  box-shadow: 20px 20px;
+  text-align: center;
+  font-size: 22px;
+
+}
+
+.info{
+  height:600px;
+  width:1000px;
+
+}
+
+.infobox{
+  height: 580px;
+  width:1000px;
+  background-color: orange;
+  box-shadow: 20px 20px;
+  text-align: left;
+  padding:10px;
+
+}
+.message{
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  box-shadow:none;
+  position:relative;
+  top:5px;
+}
+
+
+:link{
+  color:blue;
+}
+
+:visited{
+  color:red;
+}
+
+a:hover{
+  text-decoration: none;
+  background-color:gray ;
+}
+
+:focus{
+  background-color: yellow;
+}
