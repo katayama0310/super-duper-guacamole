@@ -15,21 +15,33 @@ header{
   padding-top: 50px;
   font-size: 100px;
   padding-bottom:0px;
+  text-shadow: 4px 4px 1px lightyellow,
+               7px 7px 1px greenyellow;
+
 }
 
-.header p{
+h1{
+  text-shadow: 3px 3px 1px lightyellow;
+
 
 }
+
 
 main{
   height:4200px;
   width:1000px;
+
 }
 
 .about h1{
   text-align: center;
-  font-size:35
-  border:solid 2px black;
+}
+
+.about::first-line{
+  text-align: center;
+  font-size:40px;
+  font-weight: bolder;
+
 }
 
 
@@ -84,19 +96,28 @@ main{
 }
 
 .info{
-  height:600px;
-  width:1000px;
+  height:780px;
+  width:980px;
 
 }
 
 .infobox{
-  height: 580px;
-  width:1000px;
+  height: 770px;
+  width:980px;
   background-color: orange;
   box-shadow: 20px 20px;
   text-align: left;
   padding:10px;
 
+}
+.phone {
+  padding: 15px;
+
+  font-size: 30px;
+}
+
+.phone::before{
+  content: "\2706"
 }
 .message{
   background-color: #5dca88;
@@ -126,4 +147,27 @@ a:hover{
 
 :focus{
   background-color: yellow;
+}
+
+.facebook {
+  background-color: #3b5998;
+
+
+}
+
+.twitter {
+  background-color: #55acee;
+
+}
+
+.line{
+  background-color: green;
+
+}
+
+.btn{
+  display:inline-block;
+  padding:5px;
+  margin:8px;
+  color:white;
 }
